@@ -1,10 +1,3 @@
-# prompt.md
+#  Initial Prompt
+I'm in a native app development course for beginners, and I need to build a Swift app on Xcode for my final project. Build a SwiftUI iOS app called Atlas — a dark, minimal, travel-inspired world country explorer. Use a NetworkManager that fetches country data from the RestCountries v3.1 API using async/await, requesting name, capital, region, subregion, flags, coordinates, population, currencies, and languages (stay within the 10-field limit). The list view should have a large styled navigation title, a searchable scrolling list of country cards showing each country's flag, name, capital, population, and a color-coded region badge, and a toolbar menu for filtering by region. Tapping a country opens a detail view with a gradient hero section displaying the flag and country name, a grid of info cards covering key facts (capital, population, region, subregion, language, currency), an interactive map centered on the country, and a nearby attractions section fetched from the Geoapify Places API. In the detail view, add an extra row to the country info data that includes a checkbox that saves whether or not the user has traveled there, and if so there's a link to a new page that functions as a scrapbook that allows the user to journal their thoughts about the country and include pictures. Use the Nunito font throughout, define a dark color palette with named assets, and style all cards with rounded rectangles and subtle strokes. The whole app should feel polished, dark, and travel-inspired.
 
-Replace this file's contents with the initial prompt you used to generate your final project app.
-
-A few notes:
-- You may take as many runs at the prompt as you like — only include the prompt from the run you're most happy with.
-- - You are not permitted to have the agent edit the code after it's created.
-  - - You can use ChatGPT or similar tools to help shape your initial prompt.
-   
-    - Getting started with Markdown: https://www.markdownguide.org/basic-syntax/
